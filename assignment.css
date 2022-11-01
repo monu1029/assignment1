@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    background-color: red;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    height: 65px;
+    width: 100%;
+    margin-top: 20px;
+    position: sticky;
+    
+}
+.left{
+    height: 48px;
+    width: 48px;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 50px;
+    align-self: center;
+
+
+}
+.logo{
+    font-weight: bold;
+    color: red;
+     display: flex;
+     justify-content: center;
+     margin-top: 5px;
+     font-family: 'Roboto', sans-serif;
+     position: sticky;
+     
+    
+    
+}
+
+
+.right{
+ margin: 12px 100px ;
+
+}
+.log{
+    background-color: red;
+    border: 2px solid black;
+    border: none;
+    color: whitesmoke;
+    font-size: 15px;
+    
+}
+.create{
+    width: 150px;
+    height: 35px;
+    padding: 7px 10px;
+    align-self: center;
+    background-color: red;
+    border: 2px solid grey;
+    color: whitesmoke;
+    margin-left: 20px;
+    
+}
+.hydrogen{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.Place{
+    color: #192F60;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.left-split{
+    width: 15vw;
+    height: 35vw;
+    /* border: 2px solid black; */
+    margin-top: 25px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px 0px rgba(128, 128, 128, 0.877);
+}
+.left-split p{
+    color: #192F60;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.locations{
+    font-weight: bold;
+    color: #192F60;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+#location{
+    width: 12vw;
+    height: 25px;
+    border: 2px solid grey;
+    color: rgba(128, 128, 128, 0.864);
+    padding: 2px;
+    margin-top: 7px;
+
+    }
+
+.cusine{
+    margin: 15px 0px;
+    
+
+}
+.fill{
+    margin-top: 13px;
+}
+.cost-for{
+    margin-bottom: 8px;
+}
+.cuisine{
+    margin-bottom: 8px;
+}
+.filter{
+    margin-bottom: 7px;
+}
+.lithium{
+    margin: 7px 0px;
+}
+.ithium{
+    margin: 7px  0px;
+    color: rgba(128, 128, 128, 0.868);
+}
+.neon{
+    color: rgba(128, 128, 128, 0.868);
+}
+.sort{
+    margin: 7px;
+}
+.split{
+    display: flex;
+}
+.right-split{
+    
+    width: 50vw;
+    height: 35vh;
+    /* border: 2px solid black; */
+    margin: 27px 60px ;
+    box-shadow: 2px 2px 8px 0px rgba(128, 128, 128, 0.877);
+}
+.up{
+    display: flex;
+    
+    /* width: 50vw;
+    height: 30vh;
+    border: 2px solid black; */
+    /* margin: 27px 40px ; */
+}
+.idli{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 32px;
+}
+.chill{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.big{
+    font-size: 25px;
+    color: #192F60;
+    font-weight: bold;
+}
+.fort{
+    margin-top: 8px;
+    color: #3e62ae;
+    font-weight: bold;
+    font-size: 18px;
+}
+.shop{
+    font-size: 16px;
+    margin-top: 8px;
+    color: grey;
+    
+}
+.Baker{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.cuse{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.697);
+}
+.bake{
+    font-size: 16px;
+    color: #192F60;
+    margin-left: 38px;
+}
+.baker{
+    display: flex;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+hr{
+    width: 45vw;
+    
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.main-container{
+    width: 100vw;
+    height: 80vh;
+    
+}
+.left-spit{
+    width: 50vw;
+    height: 35vh;
+    /* border: 2px solid black; */
+    margin: 27px 60px ;
+    box-shadow: 2px 2px 8px 0px rgba(128, 128, 128, 0.877);
+
+}
+.down{
+    display: flex;
+}
+.pagination {
+    display:flex;
+    list-style: none;
+    margin-left: 28%;
+  }
+  
+  .pagination li {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    align-items: center;
+    margin: 0px 8px;
+  }
+  
+  
